@@ -1,0 +1,66 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+.body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(93, 59, 5);
+}
+
+.heading-1{
+    font-family: "Agrandir", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(87, 170, 243);
+    text-align: center;
+    text-shadow: 3px 5px 1px rgb(119, 73, 3);
+    letter-spacing: 2px;
+}
+
+.head-menu{
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    color:rgb(105, 25, 25)
+}
+.ithem-01{
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 85, 0);
+    text-decoration-style: wavy; 
+}
+
+.ithem-02{
+    text-decoration: line-through;
+    text-decoration-color: rgb(0, 255, 42);
+    text-decoration-style: double;
+}
+
+.heading-h2{
+   font-family: "Agrandir", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: blueviolet;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+}
+
+.text-01{
+text-align: justify;
+}
+
+.text-02{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+.text-03{
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+.text-04{
+    line-height: 0.9; /* 18/20 */
+    word-spacing: 10px;
+}
