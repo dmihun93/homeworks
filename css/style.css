@@ -2,69 +2,60 @@
 
 @import url("fonts.css");
 
-.wrapper{
-    max-width: 1920px;
-    padding: 82px 0px;
-    margin: 0 auto;
+.body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(93, 59, 5);
 }
 
-.heading{
-    font-family: "Lato", sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 40px;
-    color: #2F302C;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 72px;
-}
-
-.container{
-    max-width: 1180px;
-    margin: 0 auto;
-    font-size: 0px;
-}
-
-.ithems{
-    margin-left: -68px;
-    margin-right: -68px;
-    margin-bottom: 68px;
-}
-
-.ithem{
-    padding-left: 68px;
-    padding-right: 68px;
-    width: 33.333%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.content{
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #7E7F7C;
-    line-height: 20px;
-
-}
-
-.image{
-    max-width: 100%;
-    vertical-align: middle;
-    margin-bottom: 24px;
-}
-
-.head{
-    font-family: "Lato", sans-serif;
+.heading-1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
     font-weight: 700;
-    color: #2F302C;
-    margin-bottom: 24px;
-    text-transform: uppercase;
+    color:rgb(87, 170, 243);
+    text-align: center;
+    text-shadow: 3px 5px 1px rgb(119, 73, 3);
+    letter-spacing: 2px;
 }
 
-.ithems-two{
-    margin-left: -68px;
-    margin-right: -68px;
-    margin-bottom: 0px;
+#section-01{
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 85, 0);
+    text-decoration-style: wavy; 
+}
+
+#section-02{
+    text-decoration: line-through;
+    text-decoration-color: rgb(0, 255, 42);
+    text-decoration-style: double;
+}
+
+.heading-h2{
+   font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: blueviolet;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    font-style: italic;
+}
+
+.text-01{
+text-align: justify;
+}
+
+.text-02{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+.text-03{
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+.text-04{
+    line-height: 0.9; /* 18/20 */
+    word-spacing: 10px;
 }
