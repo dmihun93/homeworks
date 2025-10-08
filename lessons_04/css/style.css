@@ -10,7 +10,7 @@
 }
 
 .heading-1{
-    font-family: "Agrandir", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color:rgb(87, 170, 243);
@@ -19,31 +19,26 @@
     letter-spacing: 2px;
 }
 
-.head-menu{
-    font-size: 22px;
-    font-weight: 500;
-    font-style: italic;
-    color:rgb(105, 25, 25)
-}
-.ithem-01{
+#section-01{
     text-decoration: line-through;
     text-decoration-color: rgb(255, 85, 0);
     text-decoration-style: wavy; 
 }
 
-.ithem-02{
+#section-02{
     text-decoration: line-through;
     text-decoration-color: rgb(0, 255, 42);
     text-decoration-style: double;
 }
 
 .heading-h2{
-   font-family: "Agrandir", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 28px;
     font-weight: 500;
     color: blueviolet;
     text-decoration: line-through;
     text-decoration-color: blue;
+    font-style: italic;
 }
 
 .text-01{
