@@ -2,69 +2,109 @@
 
 @import url("fonts.css");
 
-.wrapper{
+.hero{
     max-width: 1920px;
-    padding: 82px 0px;
-    margin: 0 auto;
+    background: url(../img/Rectangle.png) center center no-repeat;
+    min-height: 612px;
+    margin-bottom: 82px;
+    background-size: cover;
+    padding-top: 114px;
+    padding-bottom: 110px;
 }
 
-.heading{
-    font-family: "Lato", sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 40px;
+.container-hero{
+   max-width: 1392px;
+   margin: 0 auto;
+}
+
+.content-hero{
+    margin-left: auto;
+    margin-right: 130px;
+    max-width: 518px;
+}
+
+.text-hero{
     color: #2F302C;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 72px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.heading-hero{
+    color: #2F302C;
+    font-family: "Montserrat";
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 1.04;
+    margin-bottom: 16px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.line{
+    background-color: #2F302C;
+    max-width: 308px;
+    min-height: 1px;
+    margin-bottom: 36px;
+}
+.text-hero.size-color{
+    max-width: 374px;
+    color: #7E7F7C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 0px;
+}
+
+.section{
+    padding-bottom: 50px;
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 1280px;
     margin: 0 auto;
-    font-size: 0px;
-}
-
-.ithems{
-    margin-left: -68px;
-    margin-right: -68px;
-    margin-bottom: 68px;
-}
-
-.ithem{
-    padding-left: 68px;
-    padding-right: 68px;
-    width: 33.333%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .content{
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #7E7F7C;
-    line-height: 20px;
-
+    border: 10px solid blue;
+    outline: 10px solid green;
+    margin-bottom: 40px;
+    opacity: 0.5;
 }
 
-.image{
-    max-width: 100%;
-    vertical-align: middle;
-    margin-bottom: 24px;
+.circle{
+    width: 100px;
+    height: 100px;
+    background-image:linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 50%;
+    box-shadow: 2px -2px 5px 5px #0d0d0d84;
 }
 
-.head{
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #2F302C;
-    margin-bottom: 24px;
-    text-transform: uppercase;
+.ithems{
+    margin-top: 40px;
+    max-width: 271px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.ithems.bottom-0{
-    margin-left: -68px;
-    margin-right: -68px;
-    margin-bottom: 0px;
+.ithem{
+    background: url(../img/Check-badge.svg) left center no-repeat;
+    min-height: 32px;
+    margin-bottom: 15px;
+    padding-left: 42px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.ithem.is-img{
+    background: url(../img/Check-badge-grey.svg) left center no-repeat;
 }
