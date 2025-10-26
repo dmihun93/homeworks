@@ -2,109 +2,122 @@
 
 @import url("fonts.css");
 
-.hero{
-    max-width: 1920px;
-    background: url(../img/Rectangle.png) center center no-repeat;
-    min-height: 612px;
-    margin-bottom: 82px;
-    background-size: cover;
-    padding-top: 114px;
-    padding-bottom: 110px;
-}
-
-.container-hero{
-   max-width: 1392px;
-   margin: 0 auto;
-}
-
-.content-hero{
-    margin-left: auto;
-    margin-right: 130px;
-    max-width: 518px;
-}
-
-.text-hero{
-    color: #2F302C;
-    font-family: "Lato";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-
-.heading-hero{
-    color: #2F302C;
-    font-family: "Montserrat";
-    font-size: 96px;
-    font-weight: 800;
-    line-height: 1.04;
-    margin-bottom: 16px;
-}
-
-.bold{
-    font-weight: 700;
-}
-
-.line{
-    background-color: #2F302C;
-    max-width: 308px;
-    min-height: 1px;
-    margin-bottom: 36px;
-}
-.text-hero.size-color{
-    max-width: 374px;
-    color: #7E7F7C;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.25;
-    margin-bottom: 0px;
-}
-
 .section{
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 14000px;
     margin: 0 auto;
 }
 
-.content{
-    border: 10px solid blue;
-    outline: 10px solid green;
-    margin-bottom: 40px;
-    opacity: 0.5;
-}
-
-.circle{
-    width: 100px;
-    height: 100px;
-    background-image:linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-    border-radius: 50%;
-    box-shadow: 2px -2px 5px 5px #0d0d0d84;
-}
-
-.ithems{
-    margin-top: 40px;
-    max-width: 271px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.ithem{
-    background: url(../img/Check-badge.svg) left center no-repeat;
-    min-height: 32px;
-    margin-bottom: 15px;
-    padding-left: 42px;
-    font-family: "Montserrat";
-    font-size: 14px;
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 600;
-    line-height: 1.7;
-    letter-spacing: 0.2px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 50px;
 }
 
-.ithem.is-img{
-    background: url(../img/Check-badge-grey.svg) left center no-repeat;
+.wrapper-games {
+    background: url(../img/igry-rozmalovky-labirynt-1-2\ 1.png) center / cover no-repeat;
+    max-width: 1400px;
+    min-height: 640px;
+    margin-bottom: 50px;
+    padding-top: 88px;
+}
+
+.content-games {
+    width: 493px;
+    height: 493px;
+    margin-left: 493px;
+    font-size: 0;
+    padding-top: 225px;
+}
+
+.content-games__block {
+    background-color: #ffff00;
+    font-size: initial;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.content-games__block:hover {
+    opacity: 1;
+}
+
+.content-games__block:nth-child(1) {
+    width: 220px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.content-games__block:nth-child(2) {
+    width: 40px;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: -40px;
+}
+
+.content-games__block:nth-child(3) {
+    width: 220px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+
+.content-games__block:nth-child(4) {
+    width: 40px;
+    height: 210px;
+    margin-left: 440px;
+    margin-top: -210px;
+}
+
+.content {
+    width: 351px;
+    padding: 0px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 13px 19px #db0e0e12;
+    margin: 0 auto;
+}
+
+.content__list {
+    padding: 16px 0px 16px;
+}
+
+.content__item {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252b42;
+    margin-bottom: 15px;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+}
+
+.content__item::before{
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+    background: url(../img/Check-badge.svg) 0 0 no-repeat;
+}
+
+.content__item span{
+    display: inline-block;
+    max-width: 83%;
+    vertical-align: top;
+}
+
+.content__item:last-child {
+    margin-bottom: 0;
 }
