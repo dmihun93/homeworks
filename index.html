@@ -4,91 +4,149 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css">
-		<title>Lesson 8</title>
+		<title>Lesson 9</title>
 	</head>
 	<body>
 		<main class="wrapper">
-			<div class="container header">
-				<div class="header">
-					<div class="wrap-header-img">
-						<img src="img/shanti-logo.svg" alt="Shanti">
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Logo, Vector, SVG.
-					</p>
-				</div>
-			</div>
-			<div class="section">
+			<header class="header">
 				<div class="container">
-					<div class="content-hero">
-						<div class="wrap-hero__svg">
-							<img class="hero-img" src="img/group-ellipse.svg" alt="group-ellipse">
-						</div>
-						<picture class="wrap-hero-img">
-							<source
-								srcset="img/image-1-1x.webp 1x, img/image-1-2x.webp 2x, img/image-1-3x.webp 3x">
-							<img class="img-hero" src="img/image-1-1x.webp" alt="Girl in Yoga asana">
-						</picture>
-					</div>
-					<div class="text right">
-						<div class="text">
-							<p>Image, Yoga, JPG 1x, JPG 2x, JPG 3x, ~ webp 1x, webp 2x, webp 3x
-							</p>
+					<div class="header__inner">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="Furniture" class="logo__img">
+						</a>
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a href="#" class="nav__link">HOME</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">SHOP</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">BLOG</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">ABOUT US</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__actions">
+							<button class="header__search">
+								<img src="img/search-icon.svg" alt="Search">
+							</button>
+							<a href="#" class="header__cart">
+								<img src="img/cart-icon.svg" alt="Cart">
+							</a>
+							<a href="#" class="header__user">
+								<img src="img/user-icon.svg" alt="User">
+							</a>
 						</div>
 					</div>
 				</div>
-				<div class="section">
-					<div class="container">
-						<div class="content-practice">
-							<picture class="wrap-practice-img">
-								<source
-									srcset="img/image-2-1x.webp 1x, img/image-2-2x.webp 2x, img/image-2-3x.webp 3x">
-								<img src="img/image-2-1x.webp" alt="Girl in Yoga asana">
-							</picture>
+			</header>
+			<section class="hero">
+				<div class="container">
+					<div class="hero__inner">
+						<div class="hero__content">
+							<p class="hero__subtitle">WELCOME TO OUR</p>
+							<h1 class="hero__title">FURNITURE GALLERY</h1>
+							<p class="hero__bottomtitle">BROWSE OUR SELECTIONS</p>
 						</div>
-						<div class="text">
-							<p>Image, Yoga, JPG 1x, JPG 2x, JPG 3x, ~ webp 1x, webp
-								2x, webp 3x
-							</p>
+						<div class="hero__image">
+							<img src="img/chair.png" alt="Blue Chair" class="hero__img">
 						</div>
 					</div>
 				</div>
-				<div class="section">
-					<div class="container">
-						<div class="content-lessons">
-							<picture class="wrap-lessons-img">
-								<source
-									srcset="img/image-3-1x.webp 1x, img/image-3-2x.webp 2x, img/image-3-3x.webp 3x">
-								<img src="img/image-3-1x.webp" alt="Girl in Yoga asana">
-							</picture>
-							<picture class="wrap-lessons-img">
-								<source
-									srcset="img/image-4-1x.webp 1x, img/image-4-2x.webp 2x, img/image-4-3x.webp 3x">
-								<img src="img/image-4-1x.webp" alt="Girl in Yoga asana">
-							</picture>
-							<picture class="wrap-lessons-img">
-								<source
-									srcset="img/image-5-1x.webp 1x, img/image-5-2x.webp 2x, img/image-5-3x.webp 3x">
-								<img src="img/image-5-1x.webp" alt="Girl in Yoga asana">
-							</picture>
+			</section>
+			<section class="products">
+				<div class="container">
+					<div class="product-card product-card--left">
+						<div class="product-card__image">
+							<img src="img/lamp.png" alt="Hanging Light" class="product-card__img">
 						</div>
-						<div class="text">
-							<p>Image, Yoga, JPG 1x, JPG 2x, JPG 3x, ~ webp 1x, webp
-								2x, webp 3x
+						<div class="product-card__content">
+							<h3 class="product-card__title">HANGING LIGHT</h3>
+							<p class="product-card__description">
+								Upgrade your space with our modern hanging light, featuring sleek lines,
+								energy-efficient LED lighting, and adjustable height.
 							</p>
-						</div>
-						<div class="wrap-backgraund">
-							<img src="img/image-bg-1.svg" alt="lotos">
-							<img src="img/image-bg-2.svg" alt="lotos">
-						</div>
-						<div class="text">
-							<p>
-								BG, Vector, SVG.
-							</p>
+							<a href="#" class="product-card__link">Learn more →</a>
 						</div>
 					</div>
-				</main>
-			</body>
-		</html>
+					<div class="product-card product-card--center">
+						<div class="product-card__content">
+							<h3 class="product-card__title">DESIGNED SOFA</h3>
+							<p class="product-card__description">
+								Introducing our newest sofa, the perfect combination of style and
+								comfort, designed to elevate your living space and provide ultimate
+								relaxation.
+							</p>
+							<a href="#" class="product-card__link">Learn more →</a>
+						</div>
+						<div class="product-card__image">
+							<img src="img/sofa.png" alt="Designed Sofa" class="product-card__img">
+						</div>
+					</div>
+					<div class="product-card product-card--right">
+						<div class="product-card__content">
+							<h3 class="product-card__title">NOVA CHAIR</h3>
+							<p class="product-card__description">
+								a stylish and comfortable addition to any room, with its sleek design
+								and plush cushions creating the ultimate seating experience.
+							</p>
+							<a href="#" class="product-card__link">Learn more →</a>
+						</div>
+						<div class="product-card__image">
+							<img src="img/nova-chair.png" alt="Nova Chair" class="product-card__img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="brands">
+				<div class="container">
+					<h2 class="brands__title">TRUSTED BY</h2>
+					<div class="brands__list">
+						<div class="brands__item">
+							<img src="img/brand-1.svg" alt="Kasper Konnect" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-2.svg" alt="Furniture" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-3.svg" alt="N" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-4.svg" alt="Millessy" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-5.svg" alt="Peppermint" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-6.svg" alt="Pixie Labs" class="brands__logo">
+						</div>
+					</div>
+					<div class="brands__list brands__list--second">
+						<div class="brands__item">
+							<img src="img/brand-7.svg" alt="N" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-8.svg" alt="Pixie Labs" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-9.svg" alt="Peppermint" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-10.svg" alt="Millessy" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-11.svg" alt="Kasper Konnect" class="brands__logo">
+						</div>
+						<div class="brands__item">
+							<img src="img/brand-12.svg" alt="Furniture" class="brands__logo">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

@@ -13,74 +13,7 @@ body{
     padding-bottom: 50px;
 }
 
-.header{
-    margin-bottom: 10px;
-}
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.container.header{
-    margin-top: 32px;
-    margin-bottom: 50px;
-}
-
-.content-hero{
-    font-size: 0;
-    margin-bottom: 10px;
-}
-
-.text.right{
-    text-align: right;
-}
-
-.wrap-hero__svg{
-    display: inline-block;
-    max-width: 100px;
-    min-height: 100px;
-    vertical-align: bottom;
-    margin-bottom: 57px;
-}
-
-.wrap-hero-img{
-    max-width: 486px;
-    min-height: 647px;
-    display: inline-block;
-    margin-left: 614px;
-    vertical-align: bottom;
-}
-
-.content-practice{
-    margin-bottom: 10px;
-}
-
-.wrap-practice-img{
-    max-width: 600px;
-    min-height: 602px;
-    display: inline-block;
-    margin-right: auto;
-}
-
-.content-lessons {
-  font-size: 0;
-  margin-bottom: 10px;
-}
-
-.wrap-lessons-img {
-  display: inline-block;
-  width: 373.33px;
-  vertical-align: top;
-  margin-right: 40px;
-}
-
-.wrap-lessons-img:last-of-type {
-  margin-right: 0px;
-}
-
-.wrap-lessons-img img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
